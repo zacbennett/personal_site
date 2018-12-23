@@ -10,8 +10,15 @@ img.desaturate {
 	filter: grayscale(100%);
 	width: 250px;
 	height: 400px;
+	object-fit: cover;
 }
-
+.project-pic{
+	border: 1px solid darkgray;
+	width: 50rem;
+}
+.header-icon{
+	color:#4696e5;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2754,7 +2761,7 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			width: 70%;
+			
 		}
 
 			.spotlight .content > :last-child {
@@ -2773,7 +2780,7 @@ input, select, textarea {
 			}
 
 			.spotlight:nth-child(2n) .content {
-				text-align: right;
+				text-align: left;
 			}
 
 	@media screen and (max-width: 736px) and (orientation: landscape) {
