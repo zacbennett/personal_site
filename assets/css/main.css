@@ -6,6 +6,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 img.desaturate {
 	filter: grayscale(100%);
 	width: 250px;
@@ -16,9 +17,7 @@ img.desaturate {
 	border: 1px solid darkgray;
 	width: 50rem;
 }
-.header-icon{
-	color:#4696e5;
-}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2257,7 +2256,8 @@ input, select, textarea {
 		}
 
 	.icon {
-		color: #e0e0e0;
+		color: 	#4696e5;
+
 	}
 
 /* Image */
@@ -2938,6 +2938,9 @@ input, select, textarea {
 				margin-top: 3em;
 				padding-top: 3em;
 			}
+			.inner.alt:nth-child(2){
+				background-color: #fbfbfb;
+			}
 
 				.wrapper > .inner.alt > *:first-child {
 					border-top: 0;
@@ -3269,7 +3272,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 .icon {
-				color: #e0e0e0;
+				color: #4696e5;
 			}
 
 			.wrapper.style2 .image {
