@@ -2760,8 +2760,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.spotlight .content {
-			
+		.content.skills {
+			width:100%;
 		}
 
 			.spotlight .content > :last-child {
@@ -2782,6 +2782,16 @@ input, select, textarea {
 			.spotlight:nth-child(2n) .content {
 				text-align: left;
 			}
+		.education-list{
+			display:flex;
+			justify-content: space-between;
+		}
+		#skills-container{
+			display: flex;
+			width: 100%;
+    justify-content: space-between;
+			
+		}
 
 	@media screen and (max-width: 736px) and (orientation: landscape) {
 
