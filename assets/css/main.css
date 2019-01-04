@@ -2948,13 +2948,21 @@ header.major:after {
 	font-weight: bold;
 }
 
-#skills-container {
+
+.skills-container {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
 
 }
-
+@media (max-width: 420px) {
+  .education-list {
+    flex-direction: column;
+	}
+	.skills-container{
+    flex-direction: column;
+	}
+}
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
 
