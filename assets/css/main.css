@@ -2962,6 +2962,12 @@ header.major:after {
 	.skills-container{
     flex-direction: column;
 	}
+	ul li{
+		text-align: left;
+	}
+	.project-pic{
+		width: 100vw;
+	}
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
@@ -4054,6 +4060,12 @@ table.alt tbody tr td {
 	font-size: 1.5em;
 	line-height: 1.35em;
 }
+#footer-text{
+	position: absolute;
+	font-size: 0.5em;
+	right: 0px;
+	top: 0px;
+}
 
 #header p br {
 	display: inline;
@@ -4296,8 +4308,8 @@ body.is-preload #header .image img {
 
 /* Footer */
 
+
 #footer {
-	background-color: #f7f7f7;
 	color: #999999;
 	padding: 4.5em 0 2.5em 0;
 	color: #b0b0b0;
@@ -4353,6 +4365,9 @@ body.is-preload #header .image img {
 #footer .copyright {
 	font-size: 0.8em;
 }
+
+
+
 
 @media screen and (max-width: 980px) {
 
