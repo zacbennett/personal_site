@@ -95,7 +95,6 @@ details,
 embed,
 figure,
 figcaption,
-footer,
 header,
 hgroup,
 menu,
@@ -2311,7 +2310,10 @@ input[type="radio"]+label:before {
 label {
 	color: #828282;
 }
-
+#icon{
+	color: #4696e5;
+    margin-right: 0.3em;
+}
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -4321,7 +4323,6 @@ body.is-preload #header .image img {
 
 #footer {
 	color: #999999;
-	padding: 4.5em 0 2.5em 0;
 	color: #b0b0b0;
 	text-align: center;
 }
