@@ -17,8 +17,12 @@ img.desaturate {
 .project-pic {
 	border: 1px solid darkgray;
 	width: 50rem;
+	margin-bottom: 1em;
 }
 
+.interested-box{
+	background-color: #f7f7f7
+}
 .education-list+p {
 	font-style: italic;
 }
@@ -4240,7 +4244,13 @@ table.alt tbody tr td {
 	}
 
 }
-
+.top-header{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 10px;
+	color:white;
+}
 @media screen and (max-width: 480px) and (orientation: portrait) {
 
 	#header {
