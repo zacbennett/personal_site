@@ -12,7 +12,7 @@ img.desaturate {
 	width: 350px;
 	height: 350px;
 	object-fit: scale-down;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 }
 
 .content > #bio{
