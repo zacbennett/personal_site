@@ -27,7 +27,7 @@ img.desaturate {
 }
 
 .interested-box{
-	background-color: #f7f7f7
+	/* background-color: #f7f7f7 */
 }
 .education-list+p {
 	font-style: italic;
@@ -297,7 +297,7 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	text-decoration: none;
-	border-bottom: dotted 1px;
+	/* border-bottom: dotted 1px; */
 }
 
 a:hover {
