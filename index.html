@@ -4,31 +4,6 @@
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138283843-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-138283843-1');
-
-	function logEngageEvent(type){
-		console.log(type, ' was clicked!')
-		ga('send', 'event', 'Engagement', type);
-	}
-	var gitHubLinks = document.querySelectorAll("a[href='https://github.com/zacbennett']");
-	var linkedinLinks = document.querySelectorAll("a[href='https://www.linkedin.com/in/zac-bennett/']");
-	var resumeLinks = document.querySelectorAll("a[href='./assets/BennettZacharyResume.pdf']");
-
-	gitHubLinks.forEach(function(link){
-		link.addEventListener("click", logEngageEvent('Opened Github'))
-	})
-	linkedinLinks.forEach(function(link){
-		link.addEventListener("click", logEngageEvent('Opened Linkedin'))
-	})
-	resumeLinks.forEach(function(link){
-		link.addEventListener("click", logEngageEvent('Opened Resume'))
-	})
-</script>
 
 	<title>Zac Bennett</title>
 
@@ -103,7 +78,7 @@
 
 		<ul class="icons major">
 			<li>
-				<a href="mailto:zacbennett0@gmail.com">
+				<a target="_blank" href="mailto:zacbennett0@gmail.com">
 					<span class="icon fa-envelope">
 						<span class="label">Email</span>
 					</span>
@@ -111,7 +86,7 @@
 			</li>
 
 			<li>
-				<a href="https://www.linkedin.com/in/zac-bennett/">
+				<a target="_blank" href="https://www.linkedin.com/in/zac-bennett/">
 					<span class="icon fa-linkedin-in">
 						<span class="label">LinkedIn</span>
 					</span>
@@ -119,7 +94,7 @@
 			</li>
 
 			<li>
-				<a href="https://github.com/zacbennett">
+				<a target="_blank" href="https://github.com/zacbennett">
 					<span class="icon fa-github">
 						<span class="label">Github</span>
 					</span>
@@ -128,6 +103,7 @@
 		</ul>
 
 		<a
+			target="_blank"
 			href="./assets/BennettZacharyResume.pdf"
 			class="button primary icon fa-download"
 		>Download Resume</a>
@@ -146,10 +122,10 @@
 
 					<h3>
 						<span class="icon fa fa-github"></span>
-						<a href="https://github.com/zacbennett">Projects/Github</a>
+						<a target="_blank" href="https://github.com/zacbennett">Projects/Github</a>
 					</h3>
 					
-					<h4><a href="https://jamstack-cherries.netlify.com/"><b>Cherries</b></a> </h4>
+					<h4><a target="_blank" href="https://jamstack-cherries.netlify.com/"><b>Cherries</b></a> </h4>
 					<ul class="project-list">
 						<li>Tech Stack: JAMStack, React, JavaScript, Gatsby, GraphQL, Contentful</li>
 
@@ -162,12 +138,12 @@
 
 						
 					</ul>
-						<a href="https://jamstack-cherries.netlify.com/">
+						<a target="_blank" href="https://jamstack-cherries.netlify.com/">
 							<img class="project-pic" src="./assets/cherries-img.png"></img>
 						</a>
 						
 
-						<h4><a href="http://warblervm.herokuapp.com/"><b>Warbler</b></a> </h4>
+						<h4><a target="_blank" href="http://warblervm.herokuapp.com/"><b>Warbler</b></a> </h4>
 						<ul>
 							<li>Tech Stack: Python, Flask, HTML, Jinja							</li>
 							<li>Users can sign up with a password protected account.</li>
@@ -176,19 +152,19 @@
 							<li>Passwords encrypted and stored in database.</li>
 							<li>Full CRUD on user profiles as well as "warbles".</li>
 						</ul>	
-						<a href="http://warblervm.herokuapp.com/">
+						<a target="_blank" href="http://warblervm.herokuapp.com/">
 							<img class="project-pic" src="https://www.zacbennett.io/assets/warbler1.png"></img>
 						</a>
 
 
-					<h4><a href="https://frontjoblyzb.herokuapp.com/"><b>Jobly</b></a> </h4>
+					<h4><a target="_blank" href="https://frontjoblyzb.herokuapp.com/"><b>Jobly</b></a> </h4>
 						<ul>
 							<li>Used React and Node.js to create a fullstack LinkedIn clone. Allows a user to signup/login, search for companies and jobs, and apply for jobs</li>
 							<li>Created backend with Node/Express and Database with PostgreSQL to allow for log-in/signup capabilities</li>
 							<li>Users can login or register their own account and view jobs that they have applied for and available jobs</li>
 							<li>Username: testing123 | password: testing123 </li>
 						</ul>	
-						<a href="https://frontjoblyzb.herokuapp.com/">
+						<a target="_blank" href="https://frontjoblyzb.herokuapp.com/">
 							<img class="project-pic" src="https://www.zacbennett.io/assets/JoblyPage.png"></img>
 						</a>
 
@@ -280,7 +256,7 @@
 
 					<div class="education-list">
 						<span>
-							<a href="https://www.rithmschool.com/">Rithm School</a>
+							<a target="_blank" href="https://www.rithmschool.com/">Rithm School</a>
 						</span>
 
 						<span>
@@ -330,13 +306,13 @@
 
 							<ul>
 								<li>
-									<a href="https://www.rithmschool.com/blog/student-interview-sarah-zac">
+									<a target="_blank" href="https://www.rithmschool.com/blog/student-interview-sarah-zac">
 										Company Projects at Rithm School (Rithm School Blog)
 									</a>
 								</li>
 
 								<li>
-									<a href="https://www.switchup.org/blog/q-a-first-step-coding-alumnus-zac-bennett">
+									<a target="_blank" href="https://www.switchup.org/blog/q-a-first-step-coding-alumnus-zac-bennett">
 										QA with First Step Coding! (Switchup)
 									</a>
 								</li>
@@ -350,7 +326,7 @@
 
 							<ul>
 								<li>
-									<a href="">
+									<a target="_blank" href="">
 										Creating Search Functionality for Small Apps With Fuse.js (Medium)
 									</a>
 								</li>
@@ -381,7 +357,7 @@
 
 					<ul class="icons major">
 						<li>
-							<a href="mailto:me@zacbennett.io">
+							<a target="_blank" href="mailto:me@zacbennett.io">
 								<span class="icon fa-envelope">
 									<span class="label">Email</span>
 								</span>
@@ -389,7 +365,7 @@
 						</li>
 
 						<li>
-							<a href="https://www.linkedin.com/in/zac-bennett/">
+							<a target="_blank" href="https://www.linkedin.com/in/zac-bennett/">
 								<span class="icon fa-linkedin-in">
 									<span class="label">LinkedIn</span>
 								</span>
@@ -397,7 +373,7 @@
 						</li>
 
 						<li>
-							<a href="https://github.com/zacbennett">
+							<a target="_blank" href="https://github.com/zacbennett">
 								<span class="icon fa-github">
 									<span class="label">Github</span>
 								</span>
@@ -405,7 +381,7 @@
 						</li>
 					</ul>
 
-					<a
+					<a target="_blank"
 						href="./assets/BennettZacharyResume.pdf"
 						class="button primary icon fa-download"
 					>Download Resume</a>
@@ -427,5 +403,40 @@
 			<script src="assets/js/main.js"></script>
 		<!-- </div> -->
 	</section>
+	<script>
+			// self executing function here
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-138283843-1');
+
+		(function() {
+			// your page initialization code here
+			// the DOM will be available here
+		function logEngageEvent(type){
+			ga('send', 'event', 'Engagement', type);
+		}
+
+		// your page initialization code here
+		// the DOM will be available here
+		//document on ready
+		var gitHubLinks = document.querySelectorAll("a[href='https://github.com/zacbennett']");
+		var linkedinLinks = document.querySelectorAll("a[href='https://www.linkedin.com/in/zac-bennett/']");
+		var resumeLinks = document.querySelectorAll("a[href='./assets/BennettZacharyResume.pdf']");
+
+		gitHubLinks.forEach(function(link){
+			link.addEventListener("click", () => logEngageEvent('Opened Github'))
+		})
+
+		linkedinLinks.forEach(function(link){
+			link.addEventListener("click", () => logEngageEvent('Opened Linkedin'))
+		})
+
+		resumeLinks.forEach(function(link){
+			link.addEventListener("click", () => logEngageEvent('Opened Resume'))
+		})
+		})();
+	</script>
 </body>
 </html>
