@@ -2,6 +2,34 @@
 
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138283843-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138283843-1');
+
+	function logEngageEvent(type){
+		console.log(type, ' was clicked!')
+		ga('send', 'event', 'Engagement', type);
+	}
+	var gitHubLinks = document.querySelectorAll("a[href='https://github.com/zacbennett']");
+	var linkedinLinks = document.querySelectorAll("a[href='https://www.linkedin.com/in/zac-bennett/']");
+	var resumeLinks = document.querySelectorAll("a[href='./assets/BennettZacharyResume.pdf']");
+
+	gitHubLinks.forEach(function(link){
+		link.addEventListener("click", logEngageEvent('Opened Github'))
+	})
+	linkedinLinks.forEach(function(link){
+		link.addEventListener("click", logEngageEvent('Opened Linkedin'))
+	})
+	resumeLinks.forEach(function(link){
+		link.addEventListener("click", logEngageEvent('Opened Resume'))
+	})
+</script>
+
 	<title>Zac Bennett</title>
 
 	<meta charset="utf-8"></meta>
